@@ -1,0 +1,18 @@
+{
+    "name": "zoo-nft-extraction",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main/main.js",
+    "scripts": {
+        "serve": "nodemon --config nodemon.json --watch",
+        "start": "node src/main/main.js"
+    },
+    "author": "Infensum",
+    "dependencies": {
+        "axios": "^0.27.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "yarn": "^1.22.4"
+    }
+}
