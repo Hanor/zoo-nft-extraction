@@ -7,6 +7,7 @@ ZooNftExtraction is a tool built with Javascript that allow us to retrieve data 
  - [Requirements](#requirements-to-run)
  - [How to Execute](#how-to-execute)
  - [Workflow of the Tool](#workflow-of-the-tool)
+ - [Report File Example](#the-report-file-output-example)
 
 ## Requirements to RUN
 
@@ -52,3 +53,8 @@ The second goal is find the NFTs for each holder that we found in the [step 1](#
 
 The thirty goal is push all the information found in the report file. The report file will be generated as "zoo-nft-report.csv" and will contain: wallet, nft id, level, rarity and illegal status.
 
+## The Report File Output Example
+
+Wallet | NFT ID | LEVEL | RARITY | ILLEGAL STATUS
+--- | --- | --- | --- |--- |
+0x5e9... | 1131874 | 1 | 5 | 0
