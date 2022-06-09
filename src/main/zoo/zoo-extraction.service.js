@@ -27,7 +27,7 @@ class ZooExtractionService {
             pageNumber++;
         }
 
-        console.log(`Collected all holders of contract: ${nftContract} and theirs NFTs.`);
+        console.log(`Collected all holders of contract: ${ZooExtractionService.NFT_CONTRACT} and theirs NFTs.`);
     }
 
     async exportNftsInformation(nfts) {
