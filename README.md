@@ -1,6 +1,6 @@
 # ZooNftExtraction
 
-ZooNftExtraction is a tool built with Javascript that allow us to retrieve informations of the holders of Zoo NFT contract, collecting NFT metadata and informations about the Holders.
+ZooNftExtraction is a tool built with Javascript that allow us to retrieve data of the holders of Zoo NFT contract, collecting NFT metadata and data about the Holders.
 
 ## Summary
 
@@ -17,13 +17,13 @@ The first thing that you need to execute this tool is a Node.JS installed in the
 
 **Command for install dependencies**
 
-After the node installed we must execute some commands to install the dependencies that the project needs.
+After the node installed, we must execute some commands to install the dependencies that the project needs.
 
 1. Installing Yarn
 
 `npm i yarn -g`
 
-2. Installing all dependencies of the procject
+2. Installing all dependencies of the project
 
 `yarn install`
 
@@ -36,19 +36,19 @@ When you have a COVALENT API KEY you can run the command below:
 
 `yarn start --covalent-key=ckey_xxxxxxx`
 
-The output of this execution will be a file with the holders and theirs NFT's.
+The output of this execution will be a file with the holders and theirs NFTs.
 
 ## Workflow of the tool
 
 ### Step 1: Find The Holders
 
-The first goal of this tool is find all the holders of the contract: 0x48f9f93ba55852f7ba5beb55ad9d9cee373c0ad4, and for this we use the COVALENT API that allow us to read some informations of the blockchain.
+The first goal of this tool is find all the holders of the contract: 0x48f9f93ba55852f7ba5beb55ad9d9cee373c0ad4, and for this we use the COVALENT API that allow us to read some data of the blockchain.
 
-### Step 2: Find The NFT's
+### Step 2: Find The NFTs
 
-The second goal is find the NFT'S for each holder that we found in the [step 1](#step-1-find-the-holders). To do that we use the ZooApi that retrieve for each wallet theirs NFT's.
+The second goal is find the NFTs for each holder that we found in the [step 1](#step-1-find-the-holders). To do that we use the ZooApi that retrieve for each wallet theirs NFTs.
 
 ### Step 3: The report FILE
 
-The thirty goal is push all the information found in the report file. The report file will generated as "zoo-nft-report.csv" and will contain: wallet, nft id, level, rarity and illegal status.
+The thirty goal is push all the information found in the report file. The report file will be generated as "zoo-nft-report.csv" and will contain: wallet, nft id, level, rarity and illegal status.
 
