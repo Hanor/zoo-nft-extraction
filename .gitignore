@@ -5,7 +5,7 @@
 package-lock.json
 **/keys.json
 
-zoo-nft-report.csv
+./zoo-nft-report.csv
 
 # dependencies
 /node_modules
