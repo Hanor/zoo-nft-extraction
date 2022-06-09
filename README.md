@@ -2,6 +2,12 @@
 
 ZooNftExtraction is a tool built with Javascript that allow us to retrieve informations of the holders of Zoo NFT contract, collecting NFT metadata and informations about the Holders.
 
+## Summary
+
+ - [Requirements](#requirements-to-run)
+ - [How to Execute](#how-to-execute)
+ - [Workflow of the Tool](#workflow-of-the-tool)
+
 ## Requirements to RUN
 
 **NodeJs**
